@@ -13,8 +13,8 @@
          <sonar.host.url>http://localhost:9000</sonar.host.url>
         <sonar.login>admin</sonar.login>
         <sonar.password>Admin@123456</sonar.password>
-        <sonar.projectKey>TestBind</sonar.projectKey>
-        <sonar.projectName>TestBind</sonar.projectName>
+        <sonar.projectKey>virendasainitestrepo_TestSonarqubeRepoCode_cbbe886f-63a7-4f48-bd22-814ac057382c</sonar.projectKey>
+        <sonar.projectName>TestSonarqubeRepoCode</sonar.projectName>
         <sonar.java.binaries>target/classes</sonar.java.binaries>
         <sonar.sources>src/main/java/</sonar.sources>
         <sonar.tests>src/test/java/</sonar.tests>
