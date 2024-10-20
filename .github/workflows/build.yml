@@ -36,4 +36,4 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=virendasainitestrepo_TestSonarqubeRepoCode_cbbe886f-63a7-4f48-bd22-814ac057382c -Dsonar.projectName='TestSonarqubeRepoCode'
+        run: mvn clean verify sonar:sonar
