@@ -10,12 +10,9 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <sonar.java.binaries>target/classes</sonar.java.binaries>
-        <sonar.sources>src/main/java/</sonar.sources>
-        <sonar.tests>src/test/java/</sonar.tests>
-        <sonar.log.level>true</sonar.log.level>
-        <junit.version>4.12</junit.version>
-        <sonar.language>java</sonar.language>
+        <sonar.token>sqp_796d801afc1242a509cad18765db24955f72bd8d</sonar.token>
+        <sonar.projectKey>virendasainitestrepo_TestSonarqubeRepoCode_cbbe886f-63a7-4f48-bd22-814ac057382c</sonar.projectKey>
+        <sonar.projectName>TestSonarqubeRepoCode</sonar.projectName>     
 
     </properties>
     <dependencies>
