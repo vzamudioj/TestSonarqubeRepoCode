@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    name: Build and analyze
+    name: Build and analyze sonar
     runs-on: self-hosted
     
     steps:
@@ -36,4 +36,4 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-        run: mvn clean verify sonar:sonar
+        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=virendasainitestrepo_TestSonarqubeRepoCode_fe8b683f-3f21-4906-a335-42ccc1257581 -Dsonar.projectName='TestSonarqubeRepoCode'
