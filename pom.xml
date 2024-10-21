@@ -4,16 +4,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.example</groupId>
-    <artifactId>TestSonarQube</artifactId>
+    <artifactId>TestSonarQube123</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-          <sonar.login>admin</sonar.login>
-        <sonar.password>Admin@123456</sonar.password>
+ 
          <sonar.projectKey>virendasainitestrepo_TestSonarqubeRepoCode_cbbe886f-63a7-4f48-bd22-814ac057382c</sonar.projectKey>
-        <sonar.projectName>TestSonarqubeRepoCode</sonar.projectName>      
+        <sonar.projectName>TestSonarqubeRepoCode123</sonar.projectName>      
         <sonar.java.binaries>target/classes</sonar.java.binaries>
         <sonar.sources>src/main/java/</sonar.sources>
         <sonar.tests>src/test/java/</sonar.tests>
