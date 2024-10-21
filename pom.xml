@@ -16,7 +16,8 @@
         <sonar.log.level>true</sonar.log.level>
         <junit.version>4.12</junit.version>
         <sonar.language>java</sonar.language>    
-   
+        <sonar.login>admin</sonar.login>
+        <sonar.password>Admin@123456</sonar.password>
     </properties>
     <dependencies>
         <dependency>
