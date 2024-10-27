@@ -17,8 +17,8 @@
         <sonar.log.level>true</sonar.log.level>
         <junit.version>4.12</junit.version>
         <sonar.language>java</sonar.language>    
-        <sonar.token>sqp_6ff9386918860b1b22325e7d50bb47f9b5144578</sonar.token>
-        <sonar.projectKey>virendasainitestrepo_TestSonarqubeRepoCode_fe8b683f-3f21-4906-a335-42ccc1257581</sonar.projectKey>
+        <sonar.token>sqp_e6355e410a938fbf9fb96e0fee71019ac513bb8f</sonar.token>
+        <sonar.projectKey>virendasainitestrepo_TestSonarqubeRepoCode_c95c19cf-ed95-41ca-be8c-6dd9fca5d34d</sonar.projectKey>
         <sonar.projectName>TestSonarqubeRepoCode</sonar.projectName> 
              
     </properties>
