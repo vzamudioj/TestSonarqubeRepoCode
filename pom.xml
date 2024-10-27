@@ -4,23 +4,23 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.example</groupId>
-    <artifactId>TestSonarQube</artifactId>
+    <artifactId>TestSonarqubeBydefault</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <sonar.login>admin</sonar.login>
-        <sonar.password>Admin@123456</sonar.password>
-        <sonar.projectKey>TestBind</sonar.projectKey>
-        <sonar.projectName>TestBind</sonar.projectName>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> 
+             
         <sonar.java.binaries>target/classes</sonar.java.binaries>
         <sonar.sources>src/main/java/</sonar.sources>
         <sonar.tests>src/test/java/</sonar.tests>
         <sonar.log.level>true</sonar.log.level>
         <junit.version>4.12</junit.version>
-        <sonar.language>java</sonar.language>
-
+        <sonar.language>java</sonar.language>    
+        <sonar.token>sqp_e6355e410a938fbf9fb96e0fee71019ac513bb8f</sonar.token>
+        <sonar.projectKey>virendasainitestrepo_TestSonarqubeRepoCode_c95c19cf-ed95-41ca-be8c-6dd9fca5d34d</sonar.projectKey>
+        <sonar.projectName>TestSonarqubeRepoCode</sonar.projectName> 
+             
     </properties>
     <dependencies>
         <dependency>
@@ -29,7 +29,11 @@
             <version>4.12</version>
             <scope>test</scope>
         </dependency>
-
+       <dependency>
+            <groupId>org.sonarsource.scanner.maven</groupId>
+            <artifactId>sonar-maven-plugin</artifactId>
+            <version>4.0.0.4121</version>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
