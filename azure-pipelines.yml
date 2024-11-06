@@ -35,4 +35,4 @@ stages:
             mavenAuthenticateFeed: false
             effectivePomSkip: false
             sonarQubeRunAnalysis: true
-            codeCoverageToolOption: 'JaCoCo'
+            
