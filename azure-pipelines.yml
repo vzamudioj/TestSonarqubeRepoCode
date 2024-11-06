@@ -35,4 +35,5 @@ stages:
             mavenAuthenticateFeed: false
             effectivePomSkip: false
             sonarQubeRunAnalysis: true
+            sqMavenPluginVersionChoice: 'pom'
             
