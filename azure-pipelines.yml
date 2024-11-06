@@ -20,6 +20,7 @@ stages:
               scannerMode: 'other'
               projectKey: 'TestYAMLSonarQubeKey'
               projectName: 'TestYAMLSonarQubeName'
+            
 
   - stage: mavenbuild
     jobs:
@@ -36,4 +37,6 @@ stages:
             effectivePomSkip: false
             sonarQubeRunAnalysis: true
             sqMavenPluginVersionChoice: 'pom'
+            codeCoverageToolOption: 'JaCoCo'
+            
             
