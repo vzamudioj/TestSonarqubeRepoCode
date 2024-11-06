@@ -16,9 +16,7 @@
         <sonar.log.level>true</sonar.log.level>
         <junit.version>4.12</junit.version>
         <sonar.language>java</sonar.language>    
-        <sonar.token>sqp_e6355e410a938fbf9fb96e0fee71019ac513bb8f</sonar.token>
-        <sonar.projectKey>virendasainitestrepo_TestSonarqubeRepoCode_c95c19cf-ed95-41ca-be8c-6dd9fca5d34d</sonar.projectKey>
-        <sonar.projectName>TestSonarqubeRepoCode</sonar.projectName> 
+       
              
     </properties>
     <dependencies>
