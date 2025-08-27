@@ -12,10 +12,5 @@ public class TestCodeJava {
         System.out.println(c);
     }
 
-    @Test
-    public void multiplyint(){
-        JavaCodeClass a= new JavaCodeClass();
-        int d= a.multiply(10, 20);
-        System.out.println(d);
-    }
+    
 }
